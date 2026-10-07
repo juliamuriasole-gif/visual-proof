@@ -1,0 +1,7 @@
+{
+  "baseUrl": "http://127.0.0.1:4173",
+  "viewport": { "width": 1280, "height": 800 },
+  "routes": ["/", "/about", "/pricing"],
+  "thresholdPct": 0.5,
+  "expectedChanges": ["/pricing"]
+}

@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: #1d2330; background: #ffffff; }
+nav { display: flex; gap: 24px; padding: 16px 32px; background: #1d2330; }
+nav a { color: #ffffff; text-decoration: none; font-weight: bold; }
+main { max-width: 880px; margin: 0 auto; padding: 32px; }
+h1 { font-size: 36px; margin: 0 0 16px; }
+p { font-size: 16px; line-height: 1.5; }
+.hero { background: #eef2ff; padding: 32px; border-radius: 12px; }
+.btn { display: inline-block; padding: 12px 20px; border-radius: 8px; background: #2f5bea; color: #ffffff; text-decoration: none; font-weight: bold; }
+.plans { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 24px; }
+.plan { border: 1px solid #dde1e7; border-radius: 12px; padding: 24px; }
+.plan h2 { margin: 0 0 8px; font-size: 20px; }
+.price { font-size: 32px; font-weight: bold; margin: 8px 0 16px; }
+footer { padding: 24px 32px; color: #5b6475; border-top: 1px solid #dde1e7; margin-top: 48px; }
